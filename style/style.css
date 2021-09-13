@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+nav > h1{
+    padding: 10px 10px 30px 50px;
+}
+
+.bar_search{
+    margin: 15px;
+}
+
+nav > button{
+    margin: 20px 80px 30px 50px;
+    padding: 0px 40px;
+    font-size: 30px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(0, 98, 209);
+    color: white;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left_side{
+    padding: 0px 40px 40px 400px;
+    flex: 2;
+}
+
+.right_side{
+    padding: 0px 400px 40px 40px;
+    flex: 1;
+}
+
+.ninja_def{
+    margin: 0px 0px 40px 0px;
+    border: 5px solid grey;
+}
+
+th{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.word_detail{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.word_detail > p > span{
+    font-style: italic;
+}
+
+.detail{
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.likes{
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: gold;
+    font-size: 30px;
+    font-weight: 500;
+    width: 150px;
+    padding: 5px;
+    margin: 20px 20px 30px 43px;
+} 
+
+.definition{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.add_def{
+    border: 5px solid grey;
+}
+
+.add_def{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add_def > div > h1{
+    margin: 20px;
+    font-size: 30px;
+}
+
+
+.add_def > div > button{
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: darkseagreen;
+    font-size: 23px;
+    font-weight: 900;
+    padding: 5px;
+    margin: 0px 20px 30px 20px;
+}
+
+
+
+
+
+
+
+
