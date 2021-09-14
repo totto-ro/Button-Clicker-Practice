@@ -13,7 +13,7 @@
         <div for="searh" class="bar_search">
             <input type="text" id="searh" name="searh" placeholder="Searh"/>
         </div>
-        <button>Login</button>
+        <button class="buttonLog" onclick="logOut(this)">Login</button>
     </nav>
     <main>
         <section class="left_side">
@@ -33,7 +33,7 @@
                         </td>
                     <tr>
                         <td>
-                            <button class="likes">13 likes</button>
+                            <button class="likes" onclick="countLikes()">13 likes</button>
                         </td>
                     </tr>    
                 </table>
@@ -54,7 +54,7 @@
                         </td>
                     <tr>
                         <td>
-                            <button class="likes">37 likes</button>
+                            <button class="likes" onclick="countLikes()">37 likes</button>
                         </td>
                     </tr>    
                 </table>
@@ -65,11 +65,10 @@
                 <div>
                     <h1>Dojonary is difined by YOU</h1>
                 </div>
-                <div>
-                    <button>Add Definition</button>
-                </div>
+                <button class="remove-add-button" onclick="removeButton (this)"><span>Add Definition</span></button>
             </fieldset>
         </section>    
     </main>
+    <script src="./js/index.js"></script>
 </body>
 </html>
